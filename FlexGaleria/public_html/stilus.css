@@ -2,8 +2,38 @@
 
 main {
     margin: auto;
-    padding: 10px;
     
 }
 
-main, header, nav, article, section {border: 1px solid gray;}
+main, header, nav, article, section {
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+article{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+
+section{
+    flex: 1 0 25%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav #egyes{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
