@@ -1,7 +1,6 @@
 Első sorba írok vmit idefent.
 
 Második sorba írok vmit.
-3. Ez egy fontos módosítás
-4. Ez is fontos
-5. Ez annyira nem fontos
-6. elhanyagolható
+3. Más
+4. Más
+5. Más
